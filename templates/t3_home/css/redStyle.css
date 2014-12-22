@@ -1,0 +1,63 @@
+body {
+    color: #888888;
+    font-size: 12px;
+}
+
+a {
+    color: #f3705a;
+}
+
+header {
+    height: 80px;
+    margin: 20px 0 30px;
+}
+
+.logo {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.logo a {
+    color: #ADADAD;
+    font-size: 28px;
+    line-height: 68px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.logo span {
+    background: none repeat scroll 0 0 #f3705a;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 17px 10px 4px 4px;
+}
+
+.navbar-menu .nav > .active > a, .navbar-menu .nav > .active > a:focus {
+    background-color: #f3705a !important;
+    box-shadow: none;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.navbar-menu .nav > .active > a:hover {
+    background: none repeat scroll 0 0 #f3705a !important;
+    box-shadow: none;
+    color: #fff !important;
+}
+.navbar-menu .nav > li > a:focus, .navbar-menu .nav > li > a:hover {
+    background: none repeat scroll 0 0 #f3705a !important;
+    color: #fff;
+}
+
+.navbar-menu .nav > li > a {
+    border-top: 4px solid transparent;
+    color: #666;
+    font-size: 14px;
+    padding: 28px 20px;
+    text-shadow: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.text-redStyle {
+  color: #f3705a;
+}
